@@ -71,6 +71,11 @@ body {
 
 .main div a {
     text-decoration: none;
+    color: var(--dark-main-3);
+}
+
+.main div a:active {
+    color: var(--dark-main-3);
 }
 
 .main div a:hover {
@@ -83,7 +88,7 @@ body {
     }
 
     .navbar .option-div {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 
     .navbar .option-div .option {
