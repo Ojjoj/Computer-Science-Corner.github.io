@@ -1,0 +1,101 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-color: var(--background-1);
+}
+
+:root {
+    /*Color scheme*/
+    --background-1: black;
+    --dark-main-1: #3E065F;
+    --dark-main-2: #700B97;
+    --dark-main-3: #8E05C2;
+
+    --light-main-1: #fff;
+
+    /*Fonts*/
+    --title-font: font-family: 'Anton', sans-serif;
+}
+
+/*Navbar*/
+.navbar {
+    background-color: var(--background-1);
+    box-shadow: 0 10px 30px -10px rgba(62, 6, 95, 0.7);
+    text-align: center;
+    padding: 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.navbar .title-div {
+    font-family: 'Anton', sans-serif;
+}
+
+.navbar .title-div .title {
+    font-size: 0;
+}
+
+.navbar .title-div .title span {
+    font-size: 3rem;
+}
+
+.navbar .option-div {
+    font-size: 1.5rem;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+
+.navbar .option-div .option {
+    margin: 1rem;
+    color: var(--light-main-1);
+}
+
+.navbar .option-div .option:hover {
+    color: var(--dark-main-3);
+}
+
+/*main*/
+
+.main div {
+    text-align: center;
+    margin: 2rem;
+    margin-top: 10%;
+    font-size: 3rem;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    color: var(--light-main-1);
+}
+
+.main div a {
+    text-decoration: none;
+}
+
+.main div a:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar .title-div .title span {
+        font-size: 2rem;
+    }
+
+    .navbar .option-div {
+        font-size: 1rem;
+    }
+
+    .navbar .option-div .option {
+        margin: 0.1rem;
+    }
+
+    .main div {
+        font-size: 2rem;
+    }
+
+    .navbar .option-div .small-screen-break {
+        color: #fff;
+    }
+
+}
