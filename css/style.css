@@ -1,0 +1,23 @@
+/*colors*/
+:color {
+  --raisin-black: #231f20ff;
+  --black-coffee: #453b39ff;
+  --umber: #675b51ff;
+  --shadow: #827f6cff;
+  --morning-blue: #96a690ff;
+  --cambridge-blue: #a5cfc0ff;
+}
+
+
+body {
+  background-image: linear-gradient(
+    to right top,
+    #f5f5f7,
+    #e3eaf3,
+    #cae1ea,
+    #b3d9da,
+    #a5cfc0
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
